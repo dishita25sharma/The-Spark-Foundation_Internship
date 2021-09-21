@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Donation Site</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- BOOTSTRAP -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+<!-- FONT AWESOME -->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body onload="load()">
+
+  <!-- navbar -->
+
+  <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #E8E46E;">
+    <a class="navbar-brand" href="">Team GoodWill</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Donate_button">Donate</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- heading -->
+  <section id="heading">
+    <h1>BRING A LIFE BACK TO POWER</h1>
+  </section>
+
+  <!-- Slide-show -->
+  <section id="img">
+    <div id="img-carousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 immg" src="images/img1.jpg" alt="First slide" width="70%" height="500">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/img2.jpg" alt="Second slide" width="70%" height="500">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/img3.jpg" alt="Third slide" width="70%" height="500">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/img4.jpg" alt="Fourth slide" width="70%" height="500">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/img5.jpg" alt="Fifth slide" width="70%" height="500">
+        </div>
+      </div>
+    </div>
+
+    <!-- Donation Section -->
+    <section id="Donate_button">
+      <a href="https://rzp.io/l/rZ9mT1RqXI"><button type="button" class="btn btn-danger btn-lg"  >Donate Now!!</button></a>
+    </section>
+
+  </section>
+
+<!-- About section -->
+<div id="about">
+		<div class="container">
+			<div class="content-section">
+				<div class="title">
+					<h1>About Us</h1>
+				</div>
+				<div class="content">
+					<h3>"Education" is the best donation. It teaches how to earn.</h3>
+					<p>We are a brand new organization of young philanthropists keen to eradicate illiteracy and spread knowledge extensively.</p>
+				</div>
+			</div>
+			<div class="image-section">
+				<img src="images/about.jfif">
+			</div>
+		</div>
+	</div>
+
+  <!-- counter -->
+<section class="counter">
+  <p>
+  <div class="container">
+     <div class="row">
+        <div class="col-sm">
+           <p id='0101' class="fs-2 text-dark f"><strong>0</strong></p>
+           <p style="color:#B42B51;"><strong>Site visits</strong></p>
+        </div>
+        <div class="col-sm">
+           <p id='0102' class="fs-2 text-dark f"><strong>876</strong></p>
+           <p  style="color:#B42B51;"><strong>Followers</strong></p>
+        </div>
+        <div class="col-sm">
+           <p class="fs-2 text-dark f"><span id='0103'><strong>12</strong></span></p>
+           <p class="align-content-center tc" style="color:#B42B51;"><strong>Patrons</strong></p>
+        </div>
+     </div>
+  </div>
+  </p>
+</section>
+
+  <!-- Footer -->
+
+<section id="footer">
+      <div>
+      <a class="footer-link" href="https://www.linkedin.com/in/dishita-sharma-5a4b0119b"><i class="fab fa-linkedin"></i></a>
+      <a class="footer-link" href="https://www.instagram.com/dishita_sharma_01/"><i class="fab fa-instagram"></i></a>
+      <a class="footer-link" href="https://twitter.com/DishitaSharma2"><i class="fab fa-twitter"></i></a>
+    </div><br>
+      <p class="text-light ftr">© Copyright 2021 Team Goodwill</p>
+</section>
+
+<script src="counter.js" charset="utf-8"></script>
+
+</body>
+
+</html>
